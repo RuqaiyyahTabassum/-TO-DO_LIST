@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 Cute To-Do List 🌸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page 1: Welcome -->
+    <div class="page" id="page1">
+        <h1>To-Do List</h1>
+        <button class="next-btn" id="toPage2">➡</button>
+    </div>
+
+    <!-- Page 2: User Info -->
+    <div class="page" id="page2">
+        <h2>Hello! Tell me about you 🌸</h2>
+        <input type="text" id="nameInput" placeholder="Your Name">
+        <input type="text" id="schoolInput" placeholder="School/College/Profession">
+        <button class="next-btn" id="toPage3">Next ➡</button>
+    </div>
+
+    <!-- Page 3: To-Do Table -->
+    <div class="page" id="page3">
+        <h2 id="greetUser">Hey! Here’s your To-Do List 🌸</h2>
+        <table id="todoTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Day</th>
+                    <th>Task</th>
+                    <th>Done</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Tasks will appear here -->
+            </tbody>
+        </table>
+        <div class="add-task-section">
+            <input type="date" id="taskDate">
+            <input type="text" id="taskName" placeholder="Task name">
+            <button id="addTaskBtn">➕ Add Task</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
