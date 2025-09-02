@@ -1,4 +1,4 @@
-# Cute To-Do List 🌸
+## To-Do List 🌸
 
 This is a small, pastel-themed To-Do List web app I built with HTML, CSS, and JavaScript.  
 It’s designed to be cute, student-friendly, and fully interactive.
@@ -11,7 +11,7 @@ It’s designed to be cute, student-friendly, and fully interactive.
 - Cute pastel colors, rounded buttons, and smooth animations
 
 ## Live Demo
-Check out my To-Do List project here: [Click Here](https://ruqaiyyahtabassum.github.io/cute-todo-list/)
+Check out my To-Do List project here: [Click Here]( https://ruqaiyyahtabassum.github.io/-TO-DO_LIST//)
 
 ## How to Use
 1. Open `index.html` in any web browser
