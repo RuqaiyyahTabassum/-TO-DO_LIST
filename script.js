@@ -35,7 +35,7 @@ toPage3Btn.addEventListener('click', () => {
         return;
     }
     localStorage.setItem('user', JSON.stringify({name, school}));
-    greetUser.textContent = `Hey ${name}! Here’s your To-Do List 🌸`;
+    greetUser.textContent = `Hey ${name}! Here’s your To-Do List `;
     page2.classList.remove('active');
     page3.classList.add('active');
     loadTasks();
@@ -93,3 +93,4 @@ function loadTasks(){
     todoTableBody.innerHTML = '';
     tasks.forEach(task => addTaskToTable(task));
 }
+
