@@ -1,4 +1,4 @@
-/* General Page Styling */
+
 body {
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ body {
     display: flex;
 }
 
-/* Titles */
+
 h1 {
     font-size: 3rem;
     color: #ff6f91;
@@ -40,7 +40,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-/* Buttons */
+
 .next-btn, button {
     padding: 10px 18px;
     border: none;
@@ -56,7 +56,7 @@ button:hover, .next-btn:hover {
     background: #ff1f60;
 }
 
-/* Inputs */
+
 input[type="text"], input[type="date"] {
     padding: 10px 12px;
     margin: 8px 0;
@@ -71,7 +71,7 @@ input:focus {
     border-color: #ff6f91;
 }
 
-/* Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -90,7 +90,7 @@ tbody tr.completed td {
     opacity: 0.6;
 }
 
-/* Add task section */
+
 .add-task-section {
     display: flex;
     gap: 5px;
@@ -98,3 +98,4 @@ tbody tr.completed td {
     justify-content: center;
     flex-wrap: wrap;
 }
+
